@@ -32,6 +32,7 @@ div:hover{
     color: rgb(126, 9, 9);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
+    font-style: italic;
 }
 .h3-style4{
     color: rgb(23, 3, 70);
@@ -42,4 +43,5 @@ div:hover{
     color: rgb(230, 168, 199);
     font-family:monospace;
     font-weight: bolder;
+    font-style: italic;
 }
