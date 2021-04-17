@@ -18,10 +18,19 @@ ol li:nth-child(even){
     color: green;
 }
 
-/* fonte de pesquisa https://github.com/xieranmaya/blog/issues/12*/
+/* fonte de pesquisa https://github.com/xieranmaya/blog/issues/12 (seleciona todos os multiplos de X exceto ele mesmo :Xn+X)*/
 ol li:first-child,
 ol li:nth-child(2n + 4),
 ol li:nth-child(3n + 6),  
 ol li:nth-child(5n + 10) {
     text-transform:none;
+    }
+
+    h1, h3{
+        color: red;
+    }
+
+    h1 em{
+        font-size: 40px;
+        border: 1px solid black;
     }
