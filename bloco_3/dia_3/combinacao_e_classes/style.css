@@ -42,3 +42,38 @@ ol li:nth-child(5n + 10) {
     li em{
         font-weight: bolder;
     }
+
+    .lista li:nth-child(-n+3){
+        color:rgb(27, 30, 228);
+    }
+
+    /* não encontrei uma forma de o CSS identificar a palavra java*/
+    .java{
+        background-color: violet;
+    }
+
+    .aliados a:hover{
+        font-weight:bolder;
+        text-decoration:none;
+        
+    }
+
+    
+    .stack:hover{
+        color: orange;
+    }
+
+    .w3:hover{
+        color: green;
+    }
+    .developer:hover{
+        color: black;
+    }
+
+    .devdocs:hover{
+        color:yellow;
+    }
+
+    .betrybe:hover{
+        color: green;
+    }
