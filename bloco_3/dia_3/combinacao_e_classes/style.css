@@ -34,3 +34,11 @@ ol li:nth-child(5n + 10) {
         font-size: 40px;
         border: 1px solid black;
     }
+
+    li{
+        font-size: 20px;
+    }
+
+    li em{
+        font-weight: bolder;
+    }
