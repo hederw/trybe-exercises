@@ -1,7 +1,17 @@
-.link li{
+h1{
+    padding: 10px;
+}
+.link li, a{
     display:inline-block;
     list-style-type: none;
-
+    text-decoration: none;
+    margin-left: 20px;
+}
+.link{
+    
+    background-color: cadetblue;
+    font-weight: bolder;
+    
 }
 
 .artigo{
