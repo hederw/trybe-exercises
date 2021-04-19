@@ -1,4 +1,10 @@
 .link li{
     display:inline-block;
     list-style-type: none;
+
+}
+
+.artigo{
+    display: inline-block;
+    width: 30%;
 }
