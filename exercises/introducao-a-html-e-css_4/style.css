@@ -18,3 +18,8 @@ h1{
     display: inline-block;
     width: 30%;
 }
+
+.imagen2{
+    size: 10px;
+    border-image-width: 0px;
+}
