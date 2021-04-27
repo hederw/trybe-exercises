@@ -6,6 +6,8 @@ let info = {
 
   info.recorrente = 'Sim';
 
+
 for(let key in info){
   console.log(info[key]);
 };
+
