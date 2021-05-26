@@ -55,7 +55,9 @@ function buildSkillsPhrase (paramOne) {
     Minhas cinco principais habilidades são:`
 
     array.forEach((skill, index) =>
+
     result = `${result}
+
 
     - ${skill}`)
 
@@ -65,4 +67,6 @@ function buildSkillsPhrase (paramOne) {
     return result
 }
 
-console.log(buildSkillsPhrase("Lucas"))
+
+console.log(buildSkillsPhrase("Heder"))
+
