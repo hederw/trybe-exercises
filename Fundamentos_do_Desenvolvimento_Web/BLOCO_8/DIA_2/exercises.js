@@ -63,8 +63,24 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+// Adicione o código do exercício 2 aqui:
 
 const encontre = () => books.find(livros => livros.author.birthYear === 1947).author.name;
 
 assert.strictEqual(encontre(), 'Stephen King');
+
+
+
+function smallerName() {
+    let nameBook;
+    // escreva aqui o seu código
+    books.forEach((livro) => {
+      if (!nameBook ||livro.name.length < nameBook.length) {
+        nameBook = livro.name;
+      }
+    });
+    
+    return nameBook;
+  }
+  assert.strictEqual(smallerName(), 'Duna');
+  console.log(smallerName());
