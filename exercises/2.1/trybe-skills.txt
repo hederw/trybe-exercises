@@ -1,9 +1,0 @@
-Unix
-Bash
-Git
-trybe-skills-changes
-HTML
-CSS
-=======
-React
- master
